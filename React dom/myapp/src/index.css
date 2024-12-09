@@ -1,0 +1,146 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #2b6cb0;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header nav a {
+  margin: 0 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.feed-btn {
+  padding: 5px 15px;
+  margin-left: 20px;
+  background: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.feed-btn:hover {
+  background: #ff5722;
+}
+
+/* Home */
+.home {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.shop-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2b6cb0;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.shop-now-btn:hover {
+  background: #2c5282;
+}
+
+/* Shoe List */
+.shoe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 240px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+li:hover {
+  transform: translateY(-10px);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.stock-status {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.buy-now-btn {
+  padding: 10px 20px;
+  background: #38a169;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.buy-now-btn:disabled {
+  background: #718096;
+  cursor: not-allowed;
+}
+
+.buy-now-btn:hover:enabled {
+  background: #2f855a;
+}
+
+/* Shoe Details */
+.shoe-details {
+  text-align: center;
+  margin: 40px;
+}
+
+.back-btn {
+  padding: 8px 15px;
+  background: #2b6cb0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back-btn:hover {
+  background: #2c5282;
+}
+
+/* Not Found */
+.not-found {
+  text-align: center;
+  padding: 50px;
+}
